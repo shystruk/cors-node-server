@@ -5,7 +5,7 @@ Node server with CORS for tests
 **`npm install`** or **`yarn install`**
 
 ### Run server ###
-**`node index.js`** or **npm run start**
+**`node index.js`** or **`npm run start`**
 
 Listening on http://localhost:8080/
 
