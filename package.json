@@ -1,16 +1,19 @@
 {
   "name": "vs-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node server with CORS for tests",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": "shystruk",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
