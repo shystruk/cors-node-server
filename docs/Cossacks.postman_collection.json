@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "11a39788-7b87-4524-9982-5941784729d1",
+		"name": "Cossacks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cossacks",
+			"item": [
+				{
+					"name": "Cossacks",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Conte",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{API_URL}}/cossacks/{{language}}",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"cossacks",
+								"{{language}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Weather",
+			"item": [
+				{
+					"name": "Location Search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URL}}/location/{{latt}}/{{long}}",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"location",
+								"{{latt}}",
+								"{{long}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Location",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URL}}/weather/{{woeid}}",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"weather",
+								"{{woeid}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -3,7 +3,8 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/shystruk/cors-node-server/badge.svg?targetFile=package.json)](https://snyk.io/test/github/shystruk/cors-node-server?targetFile=package.json)
 
 Public node server with CORS.<br/>
-See the [API documentation](/docs/API.md) which data you can get.
+See the [API documentation](/docs/API.md) which data you can get.<br/>
+Import the [Postman Collection](/docs/Cossacks.postman_collection.json) and try it out
 
 ### Installation ###
 **`npm install`** or **`yarn install`**
@@ -14,7 +15,7 @@ See the [API documentation](/docs/API.md) which data you can get.
 Listening on http://localhost:8080/
 
 ## API
-See [API doc](/docs/API.md)
+[API doc](/docs/API.md)
 
 ## License
 MIT © [Vasyl Stokolosa](https://about.me/shystruk)

@@ -1,6 +1,6 @@
 # API #
 
-## Weather https://www.metaweather.com
+## [MetaWeather](https://www.metaweather.com/api/)
 ### GET /location/:latt/:long ###
 returns location information
 
