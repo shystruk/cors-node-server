@@ -1,5 +1,6 @@
-# Nodejs server
-Node server with CORS for tests
+# cors-node-server
+Public node server with CORS.<br/>
+See the [API documentation](/docs/API.md) which data you can get.
 
 ### Installation ###
 **`npm install`** or **`yarn install`**
