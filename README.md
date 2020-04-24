@@ -1,4 +1,7 @@
 # cors-node-server
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php) 
+[![Known Vulnerabilities](https://snyk.io/test/github/shystruk/cors-node-server/badge.svg?targetFile=package.json)](https://snyk.io/test/github/shystruk/cors-node-server?targetFile=package.json)
+
 Public node server with CORS.<br/>
 See the [API documentation](/docs/API.md) which data you can get.
 
