@@ -1,12 +1,21 @@
 {
   "name": "vs-server",
   "version": "1.0.0",
-  "description": "Node server with CORS for tests",
+  "description": "Public node server with CORS",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "shystruk",
+  "author": {
+    "name": "Vasyl Stokolosa",
+    "email": "v.stokol@gmail.com",
+    "url": "https://github.com/shystruk"
+  },
+  "keywords": [
+    "nodejs",
+    "public server",
+    "cors"
+  ],
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
