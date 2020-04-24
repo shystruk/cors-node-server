@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const CONSTANTS = require('./../constants');
+const CONSTANTS = require('../constants');
 
 module.exports = function(app) {
     app.get('/location/:latt/:long', function (req, res) {

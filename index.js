@@ -5,6 +5,7 @@ const port = process.env.PORT || 8000;
 
 app.use(cors());
 
-require('./routes')(app);
+require('./routes/weather')(app);
+require('./routes/cossacks')(app);
 
 app.listen(port, () => console.log(`Listening on port ${port}!`));
