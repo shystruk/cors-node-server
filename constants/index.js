@@ -67,7 +67,7 @@ module.exports = {
         },
         {
             name: 'Ivan Briukhovetsky',
-            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Alexei_Grigorievich_Razumovskiy.PNG/220px-Alexei_Grigorievich_Razumovskiy.PNG',
+            image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ivan_Briukhovetsky.jpg/220px-Ivan_Briukhovetsky.jpg',
             title: 'Hetman of Left-bank Ukraine from 1663 to 1668. In the early years of rule his was positioned as pro-Russian policies incited a rebellion which he later joined in an attempt to salvage his reputation and authority. Later leader of the Anti-Moscow uprising.',
             born: 1623,
             died: 1668
