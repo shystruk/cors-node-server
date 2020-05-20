@@ -7,5 +7,6 @@ app.use(cors());
 
 require('./routes/weather')(app);
 require('./routes/cossacks')(app);
+require('./routes/cities')(app);
 
 app.listen(port, () => console.log(`Listening on port ${port}!`));
