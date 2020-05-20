@@ -7,8 +7,8 @@ module.exports = function(app) {
             `${CONSTANTS.WEATHER_BASE_URL}/api/location/search/?lattlong=${req.params.latt},${req.params.long}`
         )
         .then(response => response.json())
-        .then(json => res.send(json))
-        .catch((error) => res.send(JSON.stringify({ error })));
+        .then(json => res.status(200).json(json))
+        .catch((error) => res.status(500).send(JSON.stringify({ error })));
     });
 
     app.get('/weather/:woeid', function (req, res) {
@@ -16,7 +16,7 @@ module.exports = function(app) {
             `${CONSTANTS.WEATHER_BASE_URL}/api/location/${req.params.woeid}`
         )
         .then(response => response.json())
-        .then(json => res.send(json))
-        .catch((error) => res.send(JSON.stringify({ error })));
+        .then(json => res.status(200).json(json))
+        .catch((error) => res.status(500).send(JSON.stringify({ error })));
     });
 };
