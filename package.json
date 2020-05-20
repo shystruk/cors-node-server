@@ -16,6 +16,14 @@
     "public server",
     "cors"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shystruk/cors-node-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shystruk/cors-node-server/issues"
+  },
+  "homepage": "https://github.com/shystruk/cors-node-server",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
@@ -24,6 +32,6 @@
     "uuid": "^8.0.0"
   },
   "engines": {
-    "node": ">=12.x"
+    "node": ">=12.5.0"
   }
 }
