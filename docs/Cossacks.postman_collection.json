@@ -37,6 +37,37 @@
 			"protocolProfileBehavior": {}
 		},
 		{
+			"name": "Cities",
+			"item": [
+				{
+					"name": "Cities",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Conte",
+								"type": "text",
+								"value": "application/json",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{API_URL}}/cities/{{language}}",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"cities",
+								"{{language}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
 			"name": "Weather",
 			"item": [
 				{
