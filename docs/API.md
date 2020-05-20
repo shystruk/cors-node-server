@@ -2,11 +2,15 @@
 
 ## [MetaWeather](https://www.metaweather.com/api/)
 ### GET /location/:latt/:long ###
-returns location information
+location information
 
 ### GET /weather/:woeid ###
-returns source information and forecast history for a particular day & location
+source information and forecast history for a particular day & location
 
 ## Cossacks
 ### GET /cossacks/:language ###
-returns Cossacks array
+Cossacks JSON
+
+## Cities
+### GET /cities/:language ###
+Cities JSON
