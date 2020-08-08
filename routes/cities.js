@@ -1,4 +1,5 @@
 'use strict';
+
 const CONSTANTS = require('../constants');
 
 module.exports = function(app) {
