@@ -5,7 +5,7 @@
 
 Public node server with CORS.<br/>
 See the [API documentation](/docs/API.md) which data you can get.<br/>
-Import the [Postman Collection](/docs/Cossacks.postman_collection.json) and try it out
+Import the [Postman Collection](/docs/Cossacks.postman_collection.json) and try it out.
 
 ### Installation ###
 **`npm install`** or **`yarn install`**
