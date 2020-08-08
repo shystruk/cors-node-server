@@ -3,7 +3,7 @@
 const { v4: uuidv4 } = require('uuid');
 
 module.exports = {
-    WEATHER_BASE_URL: 'https://www.metaweather.com',
+	WEATHER_BASE_URL: 'https://www.metaweather.com',
 
     COSSACKS_EN: [
         {
