@@ -1,48 +1,49 @@
 {
-  "name": "vs-server",
-  "version": "1.0.0",
-  "description": "Public node server with CORS",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "lint": "eslint ."
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run lint"
-    }
-  },  
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "node-fetch": "^2.6.0",
-    "uuid": "^8.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shystruk/cors-node-server.git"
-  },
-  "bugs": {
-    "url": "https://github.com/shystruk/cors-node-server/issues"
-  },
-  "homepage": "https://github.com/shystruk/cors-node-server",
-  "author": {
-    "name": "Vasyl Stokolosa",
-    "email": "v.stokol@gmail.com",
-    "url": "https://github.com/shystruk"
-  },
-  "keywords": [
-    "nodejs",
-    "public server",
-    "cors"
-  ],
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^7.0.0",
-    "husky": "^4.2.5"
-  },
-  "engines": {
-    "node": ">=12.5.0"
-  }
+	"name": "vs-server",
+	"version": "1.0.0",
+	"description": "Public node server with CORS",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"lint": "eslint ."
+	},	
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shystruk/cors-node-server.git"
+	},
+	"bugs": {
+		"url": "https://github.com/shystruk/cors-node-server/issues"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/shystruk/cors-node-server",
+	"author": {
+		"name": "Vasyl Stokolosa",
+		"email": "v.stokol@gmail.com",
+		"url": "https://github.com/shystruk"
+	},
+	"keywords": [
+		"nodejs",
+		"public server",
+		"cors"
+	],
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm run lint",
+			"pre-push": "npm run lint"
+		}
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.28",
+		"node-fetch": "^2.6.0",
+		"uuid": "^8.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.0.0",
+		"husky": "^4.2.5"
+	},
+	"engines": {
+		"node": ">=12.5.0"
+	}
 }
